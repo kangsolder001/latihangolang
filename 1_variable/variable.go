@@ -45,7 +45,7 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Input Your Point : ")
 	text, _ = reader.ReadString('\n')
-	text = strings.Replace(text, "\r\n", "", -1)
+	text = strings.Replace(text, "\n", "", -1)
 
 	var (
 		point int
