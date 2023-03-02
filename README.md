@@ -1,3 +1,3 @@
 Latihan Golang 
 
-in this test
+Just trying to do some Go Programming
